@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.AboutUsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="About Us"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"
+                android:text="Welcome,\n We're dedicated to providing you the very best of Services, with an emphasis on User Friendly Interface and Cheapest Services at best prices.
+Started in 2020 by Ashwini Mohapatra, This product has come a long way from its first version. When Ashwini Mohapatra first started out, his passion for Android App Development drove him to start their own business.
+We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
+\n\nSincerely,
+\nAshwini Mohapatra" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

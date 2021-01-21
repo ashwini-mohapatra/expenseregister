@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.PrivacyPolicyFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/PrivacyPolicy"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/PrivacyPolicy1"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PrivacyPolicy2"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/PrivacyPolicy3"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PrivacyPolicy4"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/PrivacyPolicy5"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PrivacyPolicy6"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/PrivacyPolicy7"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PrivacyPolicy8"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/PrivacyPolicy9"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PrivacyPolicy10"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/PrivacyPolicy11"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PrivacyPolicy12"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/PrivacyPolicy13"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PrivacyPolicy14"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/PrivacyPolicy15"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PrivacyPolicy16"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/PrivacyPolicy17"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PrivacyPolicy18"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/PrivacyPolicy19"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PrivacyPolicy20"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#0000ff"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PrivacyPolicy21"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/PrivacyPolicy23"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textColor="#0000ff"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
