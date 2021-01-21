@@ -18,6 +18,11 @@ import android.widget.Toast;
 
 import com.ashwini.expenseregister.Authentication.MainActivity;
 import com.ashwini.expenseregister.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.material.navigation.NavigationView;
 import com.razorpay.Checkout;
 import com.razorpay.PaymentResultListener;
@@ -33,6 +38,7 @@ public class HomeActivity extends AppCompatActivity implements PaymentResultList
     DrawerLayout drawerLayout;
     ImageView i1;
 
+    AdView mAdView;
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
     @Override
@@ -41,6 +47,16 @@ public class HomeActivity extends AppCompatActivity implements PaymentResultList
         setContentView(R.layout.activity_home);
 
         Checkout.preload(getApplicationContext());
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
         i1=findViewById(R.id.imageView2);
         sharedPreferences=getSharedPreferences("Expense Register",MODE_PRIVATE);
         editor=sharedPreferences.edit();
