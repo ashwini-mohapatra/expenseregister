@@ -7,5 +7,6 @@ import retrofit2.http.Query;
 public interface Exchange {
 
     @GET("latest")
-    Call<ExchangeRateModel> getExchangeRate(@Query("access_key") String key);
+    Call<ExchangeRateModel> getExchangeRate();
 }
+
