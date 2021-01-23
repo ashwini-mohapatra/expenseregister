@@ -122,6 +122,22 @@
                         android:textColor="@android:color/white"
                         android:textStyle="bold" />
 
+                    <com.eyalbira.loadingdots.LoadingDots
+                        android:id="@+id/ld"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        app:LoadingDots_auto_play="true"
+                        app:LoadingDots_dots_color="@color/colorPrimary"
+                        app:LoadingDots_dots_count="4"
+                        app:LoadingDots_dots_size="20dp"
+                        app:LoadingDots_dots_space="5dp"
+                        app:LoadingDots_jump_duration="200"
+                        app:LoadingDots_jump_height="4dp"/>
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

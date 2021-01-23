@@ -36,7 +36,7 @@ public class SplashFragment extends Fragment {
             @Override
             public void onAnimationEnd(Animator animation) {
                 SharedPreferences sharedPreferences = getActivity().getSharedPreferences("Expense Register", Context.MODE_PRIVATE);
-                if (sharedPreferences.getInt("status", 0) == 1) {
+                if (sharedPreferences.getInt("status", 0) == 0) {
                     getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.mainframe,new LoginFragment()).commit();
                 } else {
                     startActivity(new Intent(getActivity(), HomeActivity.class));
