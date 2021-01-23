@@ -13,5 +13,9 @@
     <color name="grey_60">#666666</color>
     <color name="colorAccent">#FF4081</color>
     <color name="blue_grey_600">#546E7A</color>
+    <color name="green_800">#2E7D32</color>
+    <color name="light_green_800">#558B2F</color>
+    <color name="overlay_light_40">#66FFFFFF</color>
+    <color name="grey_90">#263238</color>
 
 </resources>

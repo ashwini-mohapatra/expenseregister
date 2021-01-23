@@ -51,7 +51,6 @@ public class LoginFragment extends Fragment {
         ld=v.findViewById(R.id.ld);
 
         sharedPreferences=getActivity().getSharedPreferences("Expense Register", Context.MODE_PRIVATE);
-        editor=sharedPreferences.edit();
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -68,6 +67,7 @@ public class LoginFragment extends Fragment {
                                     Log.d("Status", "signInWithEmail:success");
                                     FirebaseUser user = mAuth.getCurrentUser();
                                     if(user!=null){
+                                        editor=sharedPreferences.edit();
                                         editor.putInt("status",1);
                                         editor.apply();
                                         startActivity(new Intent(getActivity(), HomeActivity.class));

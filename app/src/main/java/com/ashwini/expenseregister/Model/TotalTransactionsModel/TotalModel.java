@@ -1,22 +1,22 @@
 package com.ashwini.expenseregister.Model.TotalTransactionsModel;
 
 public class TotalModel {
-    double income;
+    double balance;
     double saving;
     double expenditure;
 
-    public TotalModel(double income, double saving, double expenditure) {
-        this.income = income;
+    public TotalModel(double balance, double saving, double expenditure) {
+        this.balance = balance;
         this.saving = saving;
         this.expenditure = expenditure;
     }
 
     public double getIncome() {
-        return income;
+        return balance;
     }
 
-    public void setIncome(double income) {
-        this.income = income;
+    public void setIncome(double balance) {
+        this.balance = balance;
     }
 
     public double getSaving() {

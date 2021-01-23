@@ -20,6 +20,7 @@ import android.widget.Toast;
 import com.ashwini.expenseregister.Home.HomeActivity;
 import com.ashwini.expenseregister.Home.HomeFragment;
 import com.ashwini.expenseregister.Model.Profile.Profile;
+import com.ashwini.expenseregister.Model.TotalTransactionsModel.TotalModel;
 import com.ashwini.expenseregister.R;
 import com.eyalbira.loadingdots.LoadingDots;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -42,6 +43,8 @@ public class RegisterFragment extends Fragment {
     // Write a message to the database
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference myRef = database.getReference();
+    FirebaseDatabase database1 = FirebaseDatabase.getInstance();
+    DatabaseReference myRef1 = database1.getReference();
 
     FirebaseAuth mAuth=FirebaseAuth.getInstance();
     SharedPreferences sharedPreferences;
