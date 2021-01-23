@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<color name="Primary">#800000</color>
+<color name="colorPrimary">#00838F</color>
+    <color name="cyan_800_overlay">#00838F</color>
+    <color name="colorPrimaryDark">#006064</color>
+
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_40">#999999</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="blue_600">#1E88E5</color>
+    <color name="blue_grey_300">#90A4AE</color>
+    <color name="colorPrimaryLight">#1E88E5</color>
+    <color name="grey_60">#666666</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue_grey_600">#546E7A</color>
+
 </resources>

@@ -53,6 +53,8 @@ public class HomeActivity extends AppCompatActivity implements PaymentResultList
             }
         });
 
+        getSupportFragmentManager().beginTransaction().replace(R.id.homeframe,new HomeFragment()).commit();
+
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
