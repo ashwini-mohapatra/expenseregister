@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "928969169015",
+    "firebase_url": "https://spesen-project.firebaseio.com",
+    "project_id": "spesen-project",
+    "storage_bucket": "spesen-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928969169015:android:26a22eb91dc400260d0e72",
+        "android_client_info": {
+          "package_name": "com.ashwini.expenseregister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928969169015-0513ql7cod3di2fphm2eq2pfpn78f8hs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ashwini.expenseregister",
+            "certificate_hash": "a3e4ee015cb81ba89d95cab939a051b8a66ee2a6"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD55DKiggLlZQDHLGOYPtm6L3t5Bf0_sG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928969169015-8hv6tudu066n5o3t28mro9a4i5evo9mq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
