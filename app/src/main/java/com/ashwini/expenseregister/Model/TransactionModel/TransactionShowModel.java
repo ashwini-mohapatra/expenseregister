@@ -6,12 +6,14 @@ public class TransactionShowModel {
     String transaction_desc;
     double transaction_amt;
     String transaction_type;
+    String transaction_date;
 
-    public TransactionShowModel(String transaction_name, String transaction_desc, double transaction_amt, String transaction_type) {
+    public TransactionShowModel(String transaction_name, String transaction_desc, double transaction_amt, String transaction_type, String transaction_date) {
         this.transaction_name = transaction_name;
         this.transaction_desc = transaction_desc;
         this.transaction_amt = transaction_amt;
         this.transaction_type = transaction_type;
+        this.transaction_date=transaction_date;
     }
 
     public String getTransaction_name() {
@@ -44,5 +46,13 @@ public class TransactionShowModel {
 
     public void setTransaction_type(String transaction_type) {
         this.transaction_type = transaction_type;
+    }
+
+    public String getTransaction_date() {
+        return transaction_date;
+    }
+
+    public void setTransaction_date(String transaction_date) {
+        this.transaction_date = transaction_date;
     }
 }
