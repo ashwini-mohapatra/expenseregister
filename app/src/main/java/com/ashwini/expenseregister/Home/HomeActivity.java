@@ -96,12 +96,12 @@ public class HomeActivity extends AppCompatActivity {
         TextView t1=header.findViewById(R.id.textView3);
 
         String uid=mAuth.getUid();
-        databaseReference.child("Expense Register").child(uid);
+        databaseReference.child("Expense Register").child(uid).child("Profile");
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 Log.i("Data Status","Data Update Successful");
-                Profile profile=snapshot.child("Profile").getValue(Profile.class);
+                Profile profile=snapshot.getValue(Profile.class);
                 Log.i("Data",profile.getName());
                 t1.setText(profile.getName());
             }
