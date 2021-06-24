@@ -10,9 +10,82 @@ class home extends StatefulWidget{
 class _homestate extends State<home>{
 
   void add_dialog(){
-    setState(() {
+    var _chosenValue="";
+    Dialog(
+      backgroundColor: Colors.transparent,
+      child: Container(
+        child: Card(
+          shape: RoundedRectangleBorder( borderRadius: BorderRadius.circular(5),),
+          color: Colors.white,
+          clipBehavior: Clip.antiAliasWithSaveLayer,
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.fromLTRB(15, 15, 15, 15),
+                child: Column(
+                  children: <Widget>[
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.end
+                      ,children: [
+                        Icon(Icons.close),
+                      ],
+                    ),
+                    Divider(height: 15,),
+                    Row(
+                      children:[
+                        DropdownButton<String>(
+                          focusColor:Colors.white,
+                          value: _chosenValue="",
+                          //elevation: 5,
+                          style: TextStyle(color: Colors.white),
+                          iconEnabledColor:Colors.black,
+                          items: <String>[
+                            'Android',
+                            'IOS',
+                            'Flutter',
+                            'Node',
+                            'Java',
+                            'Python',
+                            'PHP',
+                          ].map<DropdownMenuItem<String>>((String value) {
+                            return DropdownMenuItem<String>(
+                              value: value,
+                              child: Text(value,style:TextStyle(color:Colors.black),),
+                            );
+                          }).toList(),
+                          hint:Text(
+                            "Please choose a currency",
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w500),
+                          ),
+                          // onChanged: (String value) {
+                          //   setState(() {
+                          //     _chosenValue = value;
+                          //   });
+                          // },
+                        ),
+                        
+                      ],
+                    ),
+                    Divider(height: 10,),
+                    Row(
 
-    });
+                    ),
+                    Divider(height: 10,),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+    // setState(() {
+    //
+    // });
   }
 
   @override
@@ -28,6 +101,7 @@ class _homestate extends State<home>{
         floatingActionButton: FloatingActionButton(
           onPressed: add_dialog,
           child: Icon(Icons.add),
+          backgroundColor: Colors.indigo,
         ),
       )
     );
